@@ -168,7 +168,7 @@ void set_pfm_freq(uint32_t freq)
     *   returns: void
     */
     OCR1A = F_CPU/2/freq;
-}S
+}
 
 // Pulse-Frequency-Modulation Interrupt Service Routine (PFM ISR)
 ISR(TIMER1_COMPA_vect)
